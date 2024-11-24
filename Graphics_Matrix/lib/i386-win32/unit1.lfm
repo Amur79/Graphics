@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 316
+  Height = 774
+  Top = 155
+  Width = 1099
+  Caption = 'Вращение танка'
+  ClientHeight = 774
+  ClientWidth = 1099
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '3.6.0.0'
+  object btnMulpty5: TButton
+    Left = 872
+    Height = 31
+    Top = 71
+    Width = 192
+    Caption = 'Увеличить в 5 раз'
+    TabOrder = 0
+    OnClick = btnMulpty5Click
+  end
+  object Image1: TImage
+    Left = 23
+    Height = 640
+    Top = 18
+    Width = 800
+  end
+  object Label1: TLabel
+    Left = 920
+    Height = 20
+    Top = 40
+    Width = 38
+    Caption = 'ТАНК'
+  end
+  object btnShift: TButton
+    Left = 872
+    Height = 31
+    Top = 168
+    Width = 192
+    Caption = 'Сдвинуть вправо на 30'
+    TabOrder = 1
+    OnClick = btnShiftClick
+  end
+  object btnRotateX: TButton
+    Left = 872
+    Height = 31
+    Top = 209
+    Width = 192
+    Caption = 'Повернуть по X на 30 гр'
+    TabOrder = 2
+    OnClick = btnRotateXClick
+  end
+  object btnRotateY: TButton
+    Left = 872
+    Height = 31
+    Top = 253
+    Width = 192
+    Caption = 'Повернуть по Y на 30 гр'
+    TabOrder = 3
+    OnClick = btnRotateYClick
+  end
+  object btnRotateZ: TButton
+    Left = 872
+    Height = 31
+    Top = 301
+    Width = 192
+    Caption = 'Повернуть по Z на 30 гр'
+    TabOrder = 4
+    OnClick = btnRotateZClick
+  end
+  object btnDivis5: TButton
+    Left = 872
+    Height = 31
+    Top = 120
+    Width = 192
+    Caption = 'Уменьшить в 5 раз'
+    TabOrder = 5
+    OnClick = btnDivis5Click
+  end
+end
